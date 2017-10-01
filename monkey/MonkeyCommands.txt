@@ -1,0 +1,3 @@
+adb shell monkey -p org.runnerup -v 1000 --ignore-crashes > RunnerUpLog(1).txt
+adb shell monkey -p org.runnerup -v 1000 > RunnerUpLog(2).txt
+adb shell monkey -p org.runnerup -v 10000 > RunnerUpLog(3).txt
